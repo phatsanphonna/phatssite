@@ -3,6 +3,7 @@ import { getProjects } from "@/lib/query";
 import { FC } from "react";
 
 const Projects: FC = async () => {
+
   const projects = await getProjects();
 
   return (
