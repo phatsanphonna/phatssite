@@ -23,7 +23,7 @@ export default function RootLayout({
         <div className="min-h-screen gird grid-rows-[auto,1fr,auto]">
           <Navbar />
 
-          <main className="container mx-auto my-4">{children}</main>
+          <main className="container mx-auto my-4 px-4 md:px-0">{children}</main>
         </div>
       </body>
     </html>
