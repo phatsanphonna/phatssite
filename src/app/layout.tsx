@@ -20,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${IBMPlexSansThai.className} antialiased`}>
-        <div className="min-h-screen gird grid-rows-[auto,1fr,auto]">
+        <div className="min-h-screen grid grid-rows-[auto,1fr,auto]">
           <Navbar />
 
           <main className="container mx-auto my-4 px-4 md:px-0">{children}</main>

@@ -19,7 +19,7 @@ const socialMedia = [
 ];
 const Header: FC = () => {
   return (
-    <div className="flex flex-col justify-center gap-4 h-auto md:h-60">
+    <div className="flex flex-col justify-end gap-4 h-auto md:h-60">
       <div className="flex flex-col justify-center items-start gap-2">
         <h1 className="scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-6xl bg-gradient-to-r from-wewak-600 to-wewak-400 inline-block text-transparent bg-clip-text">
           I&apos;m Phatsanphon Nakaranurak
